@@ -3,7 +3,7 @@ name: 宠汪汪
 on:
   workflow_dispatch:
   schedule:
-    - cron: '20 7,13,19,21 * * *'
+    - cron: '0 7,13,18,21 * * *'
   watch:
     types: started
   repository_dispatch:
