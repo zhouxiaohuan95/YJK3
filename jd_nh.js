@@ -105,7 +105,7 @@ async function jdNh() {
 
 function getShareCode() {
   return new Promise(resolve => {
-    $.get({url:'https://gitee.com/shylocks/updateTeam/raw/main/jd_nh.json',headers:{
+    $.get({url:'https://raw.githubusercontent.com/liuning0307/lxk0301/main/jd_nh_invitecodes.json',headers:{
         'user-agent': 'JD4iPhone/167490 (iPhone; iOS 14.2; Scale/3.00)'
       }},(err,resp,data)=>{
       try {
